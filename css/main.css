@@ -1,0 +1,62 @@
+/* body */
+body{
+  color:black;
+  font-family:Verdana,sans-serif;
+  margin:0;
+}
+
+/* header */
+header{
+  background:#d1cad1;
+  text-align:center;
+  padding:40px 0;
+}
+
+
+header .container{
+  display:flex;
+}
+
+.container ul{
+  display:flex;
+  background-color:tomato;
+}
+header .container ul li{
+  margin-right:40px;
+}
+
+/* main */
+main{
+  background-color: rgb(143, 195, 216);
+  text-align:center;
+  height:400px;
+
+}
+
+/* pcf bar*/
+.pcf_bar{
+  padding:40px;
+  background-color:#FFFFDD;
+  text-align:center;
+  
+}
+
+.pcf_bar ul{
+  padding:0;
+}
+
+.one_bar{
+  display:flex;
+}
+
+.pcf_bar li{
+  width:100%;
+  height:40px;
+  background:#ffeeff;
+  margin-bottom:5px;
+}
+
+.pcf_bar li{
+  list-style-type:none;
+}
+/* input_pcf */
